@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int n,i,a,j,b=1;
+   printf("Enter No.of ROWS:");
+   scanf("%d",&n);
+   printf("Enter No.of Columns:");
+   scanf("%d",&a);
+   for(i=1;i<=n;i++)
+   {
+       for(j=1;j<=n;j++)
+       {
+       printf("%d ",b);
+       b++;
+       }
+       printf("\n");
+   }
+    return 0;
+}
